@@ -1,0 +1,15 @@
+import { Button } from "@/components/ui/button"
+import { LoginLink } from "@kinde-oss/kinde-auth-nextjs"
+
+const LoginPage = () => {
+  return (
+    <main className="h-dvh flex flex-col items-center gap-6 text-4xl p-4 mt-5">
+        <h1>Computer Repair Shop</h1>
+        <Button className="border-gray-300" asChild>
+            <LoginLink >Sign In</LoginLink>
+        </Button>
+    </main>
+  )
+}
+
+export default LoginPage
